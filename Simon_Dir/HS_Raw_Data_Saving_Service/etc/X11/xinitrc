@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# set dpi
+if [ -x /usr/bin/xrdb ]; then
+	if [ -e ~/.Xresources ]; then
+		/usr/bin/xrdb -load -nocpp ~/.Xresources
+	else
+		/usr/bin/xrdb -load -nocpp /etc/X11/Xresources
+	fi
+fi
+
+/usr/bin/systemd-notify --ready

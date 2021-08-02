@@ -1,0 +1,27 @@
+# fstab(5)
+
+# NOTE: systemd tries to mount following filesystems on every boot:
+#
+#  - proc on /proc
+#  - sysfs on /sys
+#  - devtmpfs on /dev
+#  - securityfs on /sys/kernel/security
+#  - tmpfs on /dev/shm
+#  - devpts on /dev/pts
+#  - tmpfs on /run
+#  - tmpfs on /sys/fs/cgroup
+#  - cgroup on /sys/fs/cgroup/systemd
+#  - <all or configured cgroup controllers> on /sys/fs/cgroup/<controller name>
+#
+# Information about above filesystems is hardcoded into systemd.  systemd will
+# _try_ to apply mount options from this file by systemd-remount-fs.service.
+#
+# Please see: http://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+
+#<file system>                          <mount point>   <type>  <options>                       <dump>  <pass>
+
+tmpfs                                   /tmp            tmpfs   nosuid,nodev,noexec,comment=havefs-smackfs-smackfsroot=* 0  0
+
+/dev/disk/by-partlabel/rootfs           /               ext4    ro                              0       1
+/dev/disk/by-partlabel/user             /opt/usr        ext4    nofail,nosuid                   0       2
+/dev/disk/by-partlabel/csa              /csa            ext4    data=journal,nofail             0       2

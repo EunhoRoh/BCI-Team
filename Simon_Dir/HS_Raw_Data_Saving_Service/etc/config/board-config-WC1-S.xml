@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sys-info>
+  <default>
+    <key id="board.audio.mic" string="1"/>
+    <key id="board.audio.codec_name" string="largo-codec"/>
+    <key id="board.audio.speaker" string="FALSE"/>
+    <key id="board.audio.receiver" string="FALSE"/>
+    <key id="board.audio.earjack" string="FALSE"/>
+    <key id="board.touch.tkey" string="FALSE"/>
+    <key id="board.display.width_mm" string="34"/>
+    <key id="board.display.height_mm" string="34"/>
+  </default>
+</sys-info>

@@ -1,0 +1,9 @@
+
+inc: Default folder for included source files
+res: Folder for resource files used by the application only
+shared: Folder for resource files to be shared with other applications
+src: Folder for resource files to be shared with otehr applications
+lib: Folder for external library files
+tizen-manifest.xml: Manifest file used by the platform to install and launch the application.
+
+manifest file: 동일한 유닛의 한 세트의 일부분인 파일들의 그룹에 대한 메타데이터를 포함하고 있는 파일이다. 예를 들어 컴퓨터 프로그램의 파일들은 이름, 버전, 라이선스 그리고 프로그램의 이루고 있는 파일들을 설명하는 manifest를 가지게 된다.
