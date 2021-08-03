@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.hs_raw_data_saving_service" version="1.0.0">
+    <author email="gudtjs2912@gmail.com" href="https://pl-st.tistory.com/category/Tizen%20Studio">Simon Kim</author>
+    <profile name="wearable"/>
+    <ui-application appid="org.example.hs_raw_data_saving_service" exec="hs_raw_data_saving_service" multiple="false" nodisplay="false" taskmanage="false" type="capp">
+        <label>heart saver</label>
+        <icon>865969.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+        <privilege>http://tizen.org/privilege/network.set</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/network.profile</privilege>
+        <privilege>http://tizen.org/privilege/power</privilege>
+    </privileges>
+</manifest>

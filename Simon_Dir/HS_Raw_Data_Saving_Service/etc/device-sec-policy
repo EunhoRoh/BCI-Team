@@ -1,0 +1,1687 @@
+<config>
+  <sw_source name="root" rankkey="/10020/10000.root">
+    <origin>
+      <keyinfo>
+mQENBE6MJTABCAC6pAFNW9tCbLQtgmwxzNf7ftSL5RrsjVTlPtpyeFLhxSmqmeHr
+KB10C6Co1zYB/fW8zvGXU613g3WEo4SKlS2lnOVBxviet0qn58zwCQASbdFYtckk
+thtkxiSInoKbj4n/Z+hHB9dvcyqcWqp2IFQEDDpxgP4KuzCvvj6W+e9EtYsdGt9P
+ZHsVjIAe0w+j7Hs4Q7FYWD+mdQAjgBsLlc16Ci8EPYnvBL/xdbJ3Ryfi59tTdfGG
+HnwpjM2J1WshooyvsOtHZU+T1nHtuegEzdRMVFo502Lkb60dJRsREE2iyPWFX2TE
+ZdaQqUMmkPaROUlWhGBSWIKbOVARwWBn94KDABEBAAG0CXJvb3QudGVzdIkBPgQT
+AQIAKAUCTowlMAIbAwUJA8JnAAYLCQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQ
+TTk+Qq2l7P210wgApKVLpdve9jDsy/y//gSAGvfA4fXFuGhHkH5+QW7L+QkUAo0Z
+vv0KB0Pw5qZjV+k8jlq3Q3f/vcIEKxc40d0coa3m+bUlL2vy0+0gLSTiZ4MNFAk5
+LvJgEj+7ks75/qtJVWfCZeXo9NiugSoW9D+jNflmfstd8k2wT2ucH7IJHHzK1lGm
+vZHXeJeSULRHiibVyK5cG+NH/1Akuxkgo2jOzqhLjhp4/UiJlyAD0k/J4ULfmWp8
+C9/sIhWBoS5OcrtMVQtUMTx85I2dEC/01hnfLUk8mi5VscLu3xQoJ9hNrMEgji6H
+S+MmxcPGnVziEA0Z7VNN6DpuG/xZ1i9fgXXVfLkBDQROjCUwAQgA6fyD7eqaoah/
+za0X+Xv3o1y52UHmeHMmyzM/W4UlVsd01h7KzSHWyQKHi0i0pxRtUj+pkV+r+QjV
+BiAowq2HVpyXsmre29PEgAuIVv6/pZjfZEWFKjSDsvdXpS+mT+J6LjRxYh7ZbGvv
+SR3hMiMocWYENj13XDRw5USGhC0UxlmmMfjQfWJ6eHeQTiyZWW+CZUAJ2IbEkPVP
+nBDH/fTuVMfOo4g0HwqUSJmwV47BPLec1ArSaPG1YgKX1Y+UYoNfUvo/ieiF59At
+A8UbjQMzZggIfkvJsDL8U5n4ojFL8Rs/aMYuH76OlA4wuKPAnBSt+fVBnjaAAadf
+FCy/CHZt/wARAQABiQElBBgBAgAPBQJOjCUwAhsMBQkDwmcAAAoJEE05PkKtpez9
+S7IH/j44MxOP6dAycQAreWVAzdMiw82DjP7c6jMxYZj8ss1x++iO5GW82qm0WJ6h
+IOEdll+wBhPX0acKvE4KrlNzfsB2WzDRwOyiZfuSQI0J3Jrytj8zyCVKwHTsI8VC
+RkOzaMYsEqmPc+ve+wxxcwWXC0EtoyhMRjRZlMy55IeJcEfM8bcE4wcsyotsura6
+o1fmU223Xj1k5xXxDvXalPUoXnhvsev7kMBnIQRac194qkSkTzVXGLGu5Ng7Bfxl
+BMhf6RSk31+Q43ASbn4ralnswMhsHSatJIeasbHyvsTJzMnfEoSdpb8/dQI8KnHf
+tRrR5cbqmVr8tkFjS/QK6TWfNMM=
+</keyinfo>
+    </origin>
+    <package name="root"/>
+    <package name="ac-domain-system">
+      <provide>
+        <ac_domain name="Isolated"/>
+        <ac_domain name="^" policy="shared"/>
+        <ac_domain name="*" policy="shared"/>
+        <ac_domain name="_" policy="shared"/>
+      </provide>
+    </package>
+    <package name="unknown-sw-source"/>
+    <sw_source name="_default_" rankkey="/10020/11000/10000._default_">
+      <allow>
+        <ac_domain match="*"/>
+      </allow>
+      <package name="libaudiofilters-sec"/>
+      <package name="setup"/>
+      <package name="filesystem"/>
+      <package name="libsavscodec-neon"/>
+      <package name="tzdata"/>
+      <package name="identifier"/>
+      <package name="libX11-common"/>
+      <package name="smack-label-control"/>
+      <package name="linux-kernel-license"/>
+      <package name="lsb"/>
+      <package name="mfc-firmware-e3250"/>
+      <package name="model-config"/>
+      <package name="privilege-checker">
+        <provide>
+          <ac_domain name="privilege-checker"/>
+        </provide>
+      </package>
+      <package name="alsa-lib-1.0.25"/>
+      <package name="bluetooth-aptx-codec"/>
+      <package name="board-config-data-ORBIS"/>
+      <package name="bootloader-license"/>
+      <package name="capi-network-nfc-devel-meta"/>
+      <package name="efl-theme-tizen"/>
+      <package name="emoticon-data"/>
+      <package name="hunspell-en"/>
+      <package name="sys-string"/>
+      <package name="systemd-unit-white-list"/>
+      <package name="tizen-release"/>
+      <package name="trustzone-e3250"/>
+      <package name="findutils"/>
+      <package name="grep"/>
+      <package name="tizen-coreutils"/>
+      <package name="ncurses-base"/>
+      <package name="ncurses"/>
+      <package name="eglibc-common"/>
+      <package name="libstdc++"/>
+      <package name="libpcre"/>
+      <package name="ncurses-libs"/>
+      <package name="libgcc"/>
+      <package name="eglibc"/>
+      <package name="bash3"/>
+      <package name="sqlite"/>
+      <package name="openssl"/>
+      <package name="capi-base-common"/>
+      <package name="libicu"/>
+      <package name="zlib"/>
+      <package name="libxml2"/>
+      <package name="smack"/>
+      <package name="zip"/>
+      <package name="iniparser"/>
+      <package name="libdrm2"/>
+      <package name="xdgmime"/>
+      <package name="libuuid"/>
+      <package name="libpng"/>
+      <package name="freetype"/>
+      <package name="libjpeg-turbo"/>
+      <package name="boost-system"/>
+      <package name="smack-utils"/>
+      <package name="libdlog"/>
+      <package name="eina"/>
+      <package name="capi-base-utils"/>
+      <package name="eet"/>
+      <package name="bincfg"/>
+      <package name="tee-mobicore">
+        <provide>
+          <ac_domain name="tee-mobicore" policy="restricted" plist="tee-mobicore-provlib"/>
+        </provide>
+      </package>
+      <package name="minizip"/>
+      <package name="libss-client"/>
+      <package name="libasound-1.0.25"/>
+      <package name="tizen-fonts-conf">
+        <provide>
+          <ac_domain name="tizen-fonts"/>
+        </provide>
+      </package>
+      <package name="boost-thread"/>
+      <package name="dali">
+        <provide>
+          <ac_domain name="dali" policy="restricted" plist="dali-adaptor,dali-toolkit"/>
+        </provide>
+      </package>
+      <package name="reactivationlock-client"/>
+      <package name="xz-libs"/>
+      <package name="libexif"/>
+      <package name="libmm-common"/>
+      <package name="libjson"/>
+      <package name="gawk"/>
+      <package name="chrpath"/>
+      <package name="pixman"/>
+      <package name="libsystem"/>
+      <package name="libblkid"/>
+      <package name="libxslt"/>
+      <package name="xmlsec1">
+        <provide>
+          <ac_domain name="xmlsec1"/>
+        </provide>
+      </package>
+      <package name="xmlsec1-openssl"/>
+      <package name="libattr"/>
+      <package name="libcap"/>
+      <package name="pkg-config"/>
+      <package name="tee-client">
+        <provide>
+          <ac_domain name="tee-client"/>
+        </provide>
+      </package>
+      <package name="libtdm"/>
+      <package name="libiri">
+        <provide>
+          <ac_domain name="libiri"/>
+        </provide>
+      </package>
+      <package name="tar"/>
+      <package name="sed"/>
+      <package name="libavutil"/>
+      <package name="tizen-security-policy"/>
+      <package name="boost-filesystem"/>
+      <package name="ttrace">
+        <provide>
+          <ac_domain name="ttrace" policy="restricted"/>
+        </provide>
+      </package>
+      <package name="libfile"/>
+      <package name="unzip"/>
+      <package name="libogg"/>
+      <package name="libmm-ta"/>
+      <package name="libcom_err"/>
+      <package name="libICE"/>
+      <package name="gmp"/>
+      <package name="fribidi"/>
+      <package name="expat"/>
+      <package name="fontconfig">
+        <provide>
+          <ac_domain name="fontconfig"/>
+        </provide>
+      </package>
+      <package name="bzip2-libs"/>
+      <package name="libleveldb"/>
+      <package name="boost-program-options"/>
+      <package name="boost-chrono"/>
+      <package name="libwbxml2"/>
+      <package name="libvorbis"/>
+      <package name="libsndfile"/>
+      <package name="libavcodec"/>
+      <package name="libacl"/>
+      <package name="attr"/>
+      <package name="xmlstarlet"/>
+      <package name="kmod-libs"/>
+      <package name="libcryptsvc">
+        <provide>
+          <ac_domain name="libcryptsvc"/>
+        </provide>
+      </package>
+      <package name="pam"/>
+      <package name="liblua"/>
+      <package name="libidn"/>
+      <package name="libgpg-error">
+        <provide>
+          <ac_domain name="libgpg-error"/>
+        </provide>
+      </package>
+      <package name="libgcrypt"/>
+      <package name="systemd-libs"/>
+      <package name="security-extension-common"/>
+      <package name="security-extension-interface"/>
+      <package name="libkey-manager-common"/>
+      <package name="libXau"/>
+      <package name="libxcb"/>
+      <package name="libX11"/>
+      <package name="libXext"/>
+      <package name="libdri2"/>
+      <package name="libtbm"/>
+      <package name="libXfixes"/>
+      <package name="libXdamage"/>
+      <package name="libXrender"/>
+      <package name="dbus-libs"/>
+      <package name="dbus">
+        <provide>
+          <ac_domain name="dbus"/>
+        </provide>
+      </package>
+      <package name="systemd">
+        <provide>
+          <ac_domain name="systemd"/>
+        </provide>
+      </package>
+      <package name="libjournal"/>
+      <package name="libXi"/>
+      <package name="libXrandr"/>
+      <package name="libXv"/>
+      <package name="libslp-utilx"/>
+      <package name="libXtst"/>
+      <package name="samsung-wsm">
+        <provide>
+          <ac_domain name="samsung-wsm"/>
+        </provide>
+      </package>
+      <package name="xorg-x11-module-xdbg">
+        <provide>
+          <ac_domain name="xorg-x11-module-xdbg"/>
+        </provide>
+      </package>
+      <package name="libXcursor"/>
+      <package name="native-buffer"/>
+      <package name="opengl-es-mali400mp"/>
+      <package name="libXinerama"/>
+      <package name="giflib"/>
+      <package name="iptables"/>
+      <package name="elfutils-libelf"/>
+      <package name="chromium"/>
+      <package name="message-port"/>
+      <package name="audit-libs"/>
+      <package name="protobuf"/>
+      <package name="popt"/>
+      <package name="nspr"/>
+      <package name="net-tools"/>
+      <package name="mtdev"/>
+      <package name="libtool-ltdl"/>
+      <package name="psmisc"/>
+      <package name="procps">
+        <provide>
+          <ac_domain name="procps"/>
+        </provide>
+      </package>
+      <package name="libjournal-devel"/>
+      <package name="hash-signer">
+        <provide>
+          <ac_domain name="hash-signer"/>
+        </provide>
+      </package>
+      <package name="tizen-fonts-vector-emoji"/>
+      <package name="tizen-fonts-thai"/>
+      <package name="tizen-fonts-sub"/>
+      <package name="tizen-fonts-rosemary"/>
+      <package name="tizen-fonts-myanmar"/>
+      <package name="tizen-fonts-latin"/>
+      <package name="tizen-fonts-laos"/>
+      <package name="tizen-fonts-korean"/>
+      <package name="tizen-fonts-khmer"/>
+      <package name="tizen-fonts-japanese"/>
+      <package name="tizen-fonts-india"/>
+      <package name="tizen-fonts-hebrew"/>
+      <package name="tizen-fonts-georgian"/>
+      <package name="tizen-fonts-fallback"/>
+      <package name="tizen-fonts-ethiopic"/>
+      <package name="tizen-fonts-cooljazz"/>
+      <package name="tizen-fonts-chococooky"/>
+      <package name="tizen-fonts-chinese"/>
+      <package name="tizen-fonts-bitmap-emoji"/>
+      <package name="tizen-fonts-armenian"/>
+      <package name="tizen-fonts-arabic"/>
+      <package name="svi-data">
+        <provide>
+          <ac_domain name="svi-data"/>
+        </provide>
+      </package>
+      <package name="smack-privilege-config"/>
+      <package name="ca-certificates"/>
+      <package name="filesystem-tizen"/>
+      <package name="boost-test"/>
+      <package name="signing-client">
+        <provide>
+          <ac_domain name="signing-client"/>
+        </provide>
+      </package>
+      <package name="security-server">
+        <provide>
+          <ac_domain name="security-server"/>
+        </provide>
+      </package>
+      <package name="boost"/>
+      <package name="boost-devel"/>
+      <package name="libsecurity-server-client"/>
+      <package name="libprivilege-control-conf">
+        <provide>
+          <ac_domain name="system"/>
+        </provide>
+      </package>
+      <package name="libprivilege-control"/>
+      <package name="libphonenumber"/>
+      <package name="audit">
+        <provide>
+          <ac_domain name="auditd"/>
+        </provide>
+      </package>
+      <package name="dlogutil">
+        <provide>
+          <ac_domain name="dlogutil"/>
+        </provide>
+      </package>
+      <package name="xkeyboard-config">
+        <provide>
+          <ac_domain name="xorg" policy="shared"/>
+        </provide>
+      </package>
+      <package name="wpasupplicant">
+        <provide>
+          <ac_domain name="wpasupplicant"/>
+        </provide>
+      </package>
+      <package name="libXft"/>
+      <package name="libhwc"/>
+      <package name="libXxf86vm"/>
+      <package name="libXgesture"/>
+      <package name="libdisplay-hal"/>
+      <package name="zbar"/>
+      <package name="libXcomposite"/>
+      <package name="libxkbfile"/>
+      <package name="xorg-x11-xkb-utils">
+        <provide>
+          <ac_domain name="xorg-x11-xkb-utils"/>
+        </provide>
+      </package>
+      <package name="xorg-x11-server-common"/>
+      <package name="libwebsockets"/>
+      <package name="libarchive"/>
+      <package name="libavformat"/>
+      <package name="libremix"/>
+      <package name="nettle"/>
+      <package name="gnutls"/>
+      <package name="libSM"/>
+      <package name="libXt"/>
+      <package name="libXmu"/>
+      <package name="xorg-x11-server-utils">
+        <provide>
+          <ac_domain name="xorg-x11-server-utils"/>
+        </provide>
+      </package>
+      <package name="e2fsprogs-libs"/>
+      <package name="libss"/>
+      <package name="e2fsprogs"/>
+      <package name="file"/>
+      <package name="libswscale"/>
+      <package name="opencv"/>
+      <package name="libmount"/>
+      <package name="util-linux"/>
+      <package name="toybox"/>
+      <package name="toybox-symlinks-udhcpd"/>
+      <package name="toybox-symlinks-udhcpc"/>
+      <package name="toybox-symlinks-sysklogd">
+        <provide>
+          <ac_domain name="syslogd"/>
+        </provide>
+      </package>
+      <package name="device-mapper"/>
+      <package name="device-mapper-libs"/>
+      <package name="cryptsetup-libs"/>
+      <package name="initrd"/>
+      <package name="xorg-x11-drv-evdev-multitouch"/>
+      <package name="root-manager"/>
+      <package name="capi-content-mime-type"/>
+      <package name="libtremolo"/>
+      <package name="libpciaccess"/>
+      <package name="libfontenc"/>
+      <package name="libXfont"/>
+      <package name="spindly"/>
+      <package name="wifi-mf">
+        <provide>
+          <ac_domain name="wifi-mf"/>
+        </provide>
+      </package>
+      <package name="smack-util-private">
+        <provide>
+          <ac_domain name="smack-util-priv"/>
+        </provide>
+      </package>
+      <package name="gzip"/>
+      <package name="libpython"/>
+      <package name="python-base"/>
+      <package name="sensord-proprietary"/>
+      <package name="readline"/>
+      <package name="zint"/>
+      <package name="libpcap"/>
+      <package name="libnl2"/>
+      <package name="libffi"/>
+      <package name="glib2"/>
+      <package name="vconf"/>
+      <package name="ecore"/>
+      <package name="bundle"/>
+      <package name="capi-system-info">
+        <provide>
+          <ac_domain name="system-info"/>
+        </provide>
+      </package>
+      <package name="capi-system-device"/>
+      <package name="ecore-input"/>
+      <package name="ecore-x"/>
+      <package name="libslp-db-util"/>
+      <package name="dbus-glib"/>
+      <package name="json-glib"/>
+      <package name="libstorage"/>
+      <package name="csc-feature">
+        <provide>
+          <ac_domain name="csc-feature"/>
+        </provide>
+      </package>
+      <package name="libslp-tapi"/>
+      <package name="capi-message-port"/>
+      <package name="gstreamer">
+        <provide>
+          <ac_domain name="gstreamer"/>
+        </provide>
+      </package>
+      <package name="ecore-imf"/>
+      <package name="capi-telephony"/>
+      <package name="libcom-core"/>
+      <package name="ail">
+        <provide>
+          <ac_domain name="ail"/>
+        </provide>
+      </package>
+      <package name="audio-session-manager">
+        <provide>
+          <ac_domain name="audio_session_manager"/>
+        </provide>
+      </package>
+      <package name="libmm-session"/>
+      <package name="libdevice-node">
+        <provide>
+          <ac_domain name="device"/>
+        </provide>
+      </package>
+      <package name="libsoup2.4"/>
+      <package name="cert-svc">
+        <provide>
+          <ac_domain name="cert-svc"/>
+        </provide>
+      </package>
+      <package name="pkgmgr-info-parser">
+        <provide>
+          <ac_domain name="pkgmgr-parser"/>
+        </provide>
+      </package>
+      <package name="pkgmgr-info">
+        <provide>
+          <ac_domain name="pkgmgr-info"/>
+        </provide>
+      </package>
+      <package name="libwidget_service"/>
+      <package name="capability-manager">
+        <provide>
+          <ac_domain name="share::system-to-app::readonly"/>
+        </provide>
+      </package>
+      <package name="capi-security-privilege-manager"/>
+      <package name="libmedia-utils"/>
+      <package name="capi-system-runtime-info"/>
+      <package name="harfbuzz"/>
+      <package name="evas"/>
+      <package name="edbus"/>
+      <package name="cairo"/>
+      <package name="graphics-extension"/>
+      <package name="libwidget_provider"/>
+      <package name="smartreply"/>
+      <package name="libmm-fileinfo">
+        <provide>
+          <ac_domain name="mm-fileinfo"/>
+        </provide>
+      </package>
+      <package name="capi-media-metadata-extractor"/>
+      <package name="ecore-imf-evas"/>
+      <package name="key-storage">
+        <provide>
+          <ac_domain name="key-storage"/>
+        </provide>
+      </package>
+      <package name="librua">
+        <provide>
+          <ac_domain name="rua"/>
+        </provide>
+      </package>
+      <package name="eio"/>
+      <package name="ecore-input-evas"/>
+      <package name="storage-cleaner">
+        <provide>
+          <ac_domain name="storage-cleaner"/>
+        </provide>
+      </package>
+      <package name="app2sd">
+        <provide>
+          <ac_domain name="app2sd"/>
+        </provide>
+      </package>
+      <package name="capi-system-power"/>
+      <package name="capi-system-media-key"/>
+      <package name="capi-network-wifi-direct"/>
+      <package name="msg-service">
+        <provide>
+          <ac_domain name="msg-service" policy="restricted" plist="msg-service-tools"/>
+        </provide>
+      </package>
+      <package name="libsystem-sd"/>
+      <package name="wipc"/>
+      <package name="libmdm-common"/>
+      <package name="libmdm"/>
+      <package name="libnet-client"/>
+      <package name="capi-network-connection"/>
+      <package name="capi-network-wifi"/>
+      <package name="tima-crypto-server">
+        <provide>
+          <ac_domain name="tima-crypto-server"/>
+        </provide>
+      </package>
+      <package name="kstr-parser"/>
+      <package name="connman">
+        <provide>
+          <ac_domain name="connman"/>
+        </provide>
+      </package>
+      <package name="dcm-key-manager"/>
+      <package name="busactd">
+        <provide>
+          <ac_domain name="busactd"/>
+        </provide>
+      </package>
+      <package name="pango"/>
+      <package name="gst-plugins-base">
+        <provide>
+          <ac_domain name="gst-plugins-base"/>
+        </provide>
+      </package>
+      <package name="privilege-info"/>
+      <package name="notification-parser">
+        <provide>
+          <ac_domain name="notification-parser" policy="restricted"/>
+        </provide>
+      </package>
+      <package name="gssdp"/>
+      <package name="gupnp"/>
+      <package name="libmm-radio"/>
+      <package name="wrappergps">
+        <provide>
+          <ac_domain name="wrappergps"/>
+        </provide>
+      </package>
+      <package name="tima-pf-attestation-client"/>
+      <package name="tima-attestation-client"/>
+      <package name="tima-crypto-client"/>
+      <package name="ecore-fb"/>
+      <package name="app-restriction-manager"/>
+      <package name="launchpad-process-pool">
+        <provide>
+          <ac_domain name="launchpad"/>
+        </provide>
+      </package>
+      <package name="sensord">
+        <provide>
+          <ac_domain name="sensord"/>
+        </provide>
+      </package>
+      <package name="libsensord"/>
+      <package name="capi-system-sensor"/>
+      <package name="shared-mime-info"/>
+      <package name="twinning-client">
+        <provide>
+          <ac_domain name="twinningd"/>
+        </provide>
+      </package>
+      <package name="libcamsrcjpegenc"/>
+      <package name="journalchart">
+        <provide>
+          <ac_domain name="journalchart"/>
+        </provide>
+      </package>
+      <package name="capi-network-serial"/>
+      <package name="bluez">
+        <provide>
+          <ac_domain name="bluez"/>
+        </provide>
+      </package>
+      <package name="libbluetooth3"/>
+      <package name="pims-ipc"/>
+      <package name="libevdev">
+        <provide>
+          <ac_domain name="libevdev"/>
+        </provide>
+      </package>
+      <package name="libinput"/>
+      <package name="libXdmcp"/>
+      <package name="embryo"/>
+      <package name="db4"/>
+      <package name="cpio"/>
+      <package name="c-ares"/>
+      <package name="libcurl"/>
+      <package name="ecore-con"/>
+      <package name="ecore-file"/>
+      <package name="ecore-ipc"/>
+      <package name="ecore-evas"/>
+      <package name="edje"/>
+      <package name="elementary"/>
+      <package name="efl-extension"/>
+      <package name="capi-ui-efl-util"/>
+      <package name="minicontrol"/>
+      <package name="efreet">
+        <provide>
+          <ac_domain name="efreet"/>
+        </provide>
+      </package>
+      <package name="libwidget"/>
+      <package name="chart-framework">
+        <provide>
+          <ac_domain name="chart-framework" policy="restricted" plist="chart-framewok"/>
+        </provide>
+      </package>
+      <package name="system-resource-resourced">
+        <provide>
+          <ac_domain name="resourced"/>
+        </provide>
+      </package>
+      <package name="system-resource"/>
+      <package name="libresourced"/>
+      <package name="aul">
+        <provide>
+          <ac_domain name="aul"/>
+        </provide>
+      </package>
+      <package name="app-core-common"/>
+      <package name="app-core-efl"/>
+      <package name="syspopup-caller"/>
+      <package name="syspopup">
+        <provide>
+          <ac_domain name="syspopup"/>
+        </provide>
+      </package>
+      <package name="app-svc">
+        <provide>
+          <ac_domain name="app-svc"/>
+        </provide>
+      </package>
+      <package name="capi-media-tool">
+        <provide>
+          <ac_domain name="capi-media-tool"/>
+        </provide>
+      </package>
+      <package name="libmm-utility"/>
+      <package name="capi-media-image-util"/>
+      <package name="pkgmgr-installer">
+        <provide>
+          <ac_domain name="pkgmgr-installer"/>
+        </provide>
+      </package>
+      <package name="pkgmgr">
+        <provide>
+          <ac_domain name="pkgmgr"/>
+        </provide>
+      </package>
+      <package name="pkgmgr-client">
+        <provide>
+          <ac_domain name="pkgmgr-client"/>
+        </provide>
+      </package>
+      <package name="capi-appfw-app-manager"/>
+      <package name="capi-appfw-package-manager"/>
+      <package name="rpm-installer"/>
+      <package name="badge">
+        <provide>
+          <ac_domain name="badge"/>
+        </provide>
+      </package>
+      <package name="privacy-manager-client"/>
+      <package name="libslp-location"/>
+      <package name="capi-location-manager"/>
+      <package name="capi-media-controller"/>
+      <package name="capi-security-privacy-manager"/>
+      <package name="smartcard-service-common"/>
+      <package name="mmicheck-core">
+        <provide>
+          <ac_domain name="mmicheck-core"/>
+        </provide>
+      </package>
+      <package name="smartcard-service"/>
+      <package name="security-privilege-checker"/>
+      <package name="key-manager">
+        <provide>
+          <ac_domain name="key-manager"/>
+        </provide>
+      </package>
+      <package name="libkey-manager-client"/>
+      <package name="privacy-manager-server">
+        <provide>
+          <ac_domain name="privacy-manager"/>
+        </provide>
+      </package>
+      <package name="data-control"/>
+      <package name="capi-data-control"/>
+      <package name="com.samsung.rootdetection-syspopup">
+        <provide>
+          <ac_domain name="com.samsung.rootdetection-syspopup"/>
+        </provide>
+      </package>
+      <package name="root_detection">
+        <provide>
+          <ac_domain name="root_detection"/>
+        </provide>
+      </package>
+      <package name="appsync3">
+        <provide>
+          <ac_domain name="appsync3"/>
+        </provide>
+      </package>
+      <package name="alarm-server">
+        <provide>
+          <ac_domain name="alarm-server"/>
+        </provide>
+      </package>
+      <package name="libalarm"/>
+      <package name="capi-appfw-application"/>
+      <package name="appcore-agent"/>
+      <package name="notification">
+        <provide>
+          <ac_domain name="notification"/>
+        </provide>
+      </package>
+      <package name="wrt-commons">
+        <provide>
+          <ac_domain name="wrt-commons"/>
+        </provide>
+      </package>
+      <package name="wrt-security">
+        <provide>
+          <ac_domain name="wrt-security-daemon"/>
+        </provide>
+      </package>
+      <package name="sync-agent"/>
+      <package name="libwidget_provider_app"/>
+      <package name="appcore-watch"/>
+      <package name="appcore-widget"/>
+      <package name="libwidget_viewer"/>
+      <package name="libwidget_viewer_evas"/>
+      <package name="libumc-common"/>
+      <package name="push-bin">
+        <provide>
+          <ac_domain name="push-service" policy="restricted" plist="push-bin"/>
+        </provide>
+      </package>
+      <package name="libpush"/>
+      <package name="samsung-log-relay-mobile">
+        <provide>
+          <ac_domain name="samsung-log-relay-mobile"/>
+        </provide>
+      </package>
+      <package name="health-data-service">
+        <provide>
+          <ac_domain name="health-data-service"/>
+        </provide>
+      </package>
+      <package name="health-data"/>
+      <package name="swap-probe"/>
+      <package name="ss-server">
+        <provide>
+          <ac_domain name="secure-storage"/>
+        </provide>
+      </package>
+      <package name="app-restriction-manager-server"/>
+      <package name="bluetooth-sbc-codec"/>
+      <package name="nss-softokn-freebl"/>
+      <package name="nss-sysinit"/>
+      <package name="nss"/>
+      <package name="rpm"/>
+      <package name="rpm-libs"/>
+      <package name="lzo"/>
+      <package name="libunwind"/>
+      <package name="com.samsung.w-thing-service-fit"/>
+      <package name="toybox-symlinks-klogd"/>
+      <package name="xkb-data"/>
+      <package name="com.samsung.retailmod-config"/>
+      <package name="system-fonts-redwood"/>
+      <package name="opengl-es"/>
+      <package name="libjournal-proprietary"/>
+      <package name="which"/>
+      <package name="tizen-locale"/>
+      <package name="rsrc-default"/>
+      <package name="elm-misc"/>
+      <package name="bluetooth-tools">
+        <provide>
+          <ac_domain name="bluetooth-tools"/>
+        </provide>
+      </package>
+      <package name="binary-sign"/>
+      <package name="mmfw-sysconf-e3250-volt"/>
+      <package name="sys-assert">
+        <provide>
+          <ac_domain name="sys-assert"/>
+        </provide>
+      </package>
+      <package name="scontext">
+        <provide>
+          <ac_domain name="scontext"/>
+        </provide>
+      </package>
+      <package name="bluetooth-frwk"/>
+      <package name="capi-network-bluetooth"/>
+      <package name="bapd">
+        <provide>
+          <ac_domain name="bapd"/>
+        </provide>
+      </package>
+      <package name="contacts-service">
+        <provide>
+          <ac_domain name="contacts-service"/>
+        </provide>
+      </package>
+      <package name="pulseaudio">
+        <provide>
+          <ac_domain name="pulseaudio"/>
+        </provide>
+      </package>
+      <package name="pulseaudio-libs"/>
+      <package name="avsystem"/>
+      <package name="libmm-sound">
+        <provide>
+          <ac_domain name="sound_server"/>
+        </provide>
+      </package>
+      <package name="capi-media-sound-manager"/>
+      <package name="capi-media-audio-io"/>
+      <package name="tts">
+        <provide>
+          <ac_domain name="tts-server" policy="shared"/>
+        </provide>
+      </package>
+      <package name="ui-extension"/>
+      <package name="efl-assist">
+        <provide>
+          <ac_domain name="efl-assist"/>
+        </provide>
+      </package>
+      <package name="capi-system-system-settings"/>
+      <package name="dali-adaptor"/>
+      <package name="libmm-camcorder"/>
+      <package name="capi-media-wav-player"/>
+      <package name="libfeedback"/>
+      <package name="isf">
+        <provide>
+          <ac_domain name="isf"/>
+        </provide>
+      </package>
+      <package name="csc-manager">
+        <provide>
+          <ac_domain name="csc-manager"/>
+        </provide>
+      </package>
+      <package name="system-popup">
+        <provide>
+          <ac_domain name="system-apps"/>
+        </provide>
+      </package>
+      <package name="liblbs-dbus"/>
+      <package name="capi-media-camera"/>
+      <package name="webkit2-efl">
+        <provide>
+          <ac_domain name="webkit2-efl"/>
+        </provide>
+      </package>
+      <package name="capi-media-recorder"/>
+      <package name="wrt-plugins-common">
+        <provide>
+          <ac_domain name="wrt-plugins-common"/>
+        </provide>
+      </package>
+      <package name="libmm-player">
+        <provide>
+          <ac_domain name="libmm-player"/>
+        </provide>
+      </package>
+      <package name="capi-media-player"/>
+      <package name="capi-media-tone-player"/>
+      <package name="libfactory"/>
+      <package name="deviced">
+        <provide>
+          <ac_domain name="deviced"/>
+        </provide>
+      </package>
+      <package name="libdeviced"/>
+      <package name="starter">
+        <provide>
+          <ac_domain name="starter"/>
+        </provide>
+      </package>
+      <package name="wrt">
+        <provide>
+          <ac_domain name="wrt"/>
+        </provide>
+      </package>
+      <package name="media-server">
+        <provide>
+          <ac_domain name="media-server" policy="restricted" plist="media-thumbnail-server, media-data, media-data-sdk"/>
+        </provide>
+      </package>
+      <package name="libmedia-thumbnail"/>
+      <package name="libcore-context-manager"/>
+      <package name="xorg-x11-server-Xorg"/>
+      <package name="e17-data">
+        <provide>
+          <ac_domain name="e17-data"/>
+        </provide>
+      </package>
+      <package name="e17">
+        <provide>
+          <ac_domain name="e17" policy="restricted" plist="e17-misc,e17-misc-redwood,e17-misc-baltic,e17-data,e17-extra-modules,e17-extra-config-modules"/>
+        </provide>
+      </package>
+      <package name="dali-adaptor-dali-feedback-plugin"/>
+      <package name="dali-toolkit"/>
+      <package name="dali-extension"/>
+      <package name="libmedia-service"/>
+      <package name="capi-content-media-content"/>
+      <package name="livebox.web-provider">
+        <provide>
+          <ac_domain name="livebox.web-provider"/>
+        </provide>
+      </package>
+      <package name="irda"/>
+      <package name="lbs-server">
+        <provide>
+          <ac_domain name="location_fw" policy="shared"/>
+        </provide>
+      </package>
+      <package name="kies-at-parser">
+        <provide>
+          <ac_domain name="kies-at-parser"/>
+        </provide>
+      </package>
+      <package name="samsung-log-service">
+        <provide>
+          <ac_domain name="samsung-log-manager"/>
+        </provide>
+      </package>
+      <package name="libcore-samsung-log-client"/>
+      <package name="sap">
+        <provide>
+          <ac_domain name="sap"/>
+        </provide>
+      </package>
+      <package name="weconn">
+        <provide>
+          <ac_domain name="weconn"/>
+        </provide>
+      </package>
+      <package name="wnoti-service">
+        <provide>
+          <ac_domain name="wnoti-service"/>
+        </provide>
+      </package>
+      <package name="com.samsung.timer-band"/>
+      <package name="net.wc-popup">
+        <provide>
+          <ac_domain name="net.wc-popup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.w-lockscreen">
+        <provide>
+          <ac_domain name="com.samsung.w-lockscreen"/>
+        </provide>
+      </package>
+      <package name="com.samsung.watchface">
+        <provide>
+          <ac_domain name="com.samsung.watchface"/>
+        </provide>
+      </package>
+      <package name="voice-control-static">
+        <provide>
+          <ac_domain name="vcs-server" policy="shared"/>
+        </provide>
+      </package>
+      <package name="openal-soft"/>
+      <package name="debug-launchpad">
+        <provide>
+          <ac_domain name="debug-launchpad" policy="shared"/>
+        </provide>
+      </package>
+      <package name="sdbd">
+        <provide>
+          <ac_domain name="sdbd" policy="shared"/>
+        </provide>
+      </package>
+      <package name="dfms-connectivity"/>
+      <package name="bluetooth-frwk-service">
+        <provide>
+          <ac_domain name="bt-service"/>
+        </provide>
+      </package>
+      <package name="nfc-common-lib"/>
+      <package name="nfc-client-lib"/>
+      <package name="capi-network-nfc"/>
+      <package name="wifi-direct-manager">
+        <provide>
+          <ac_domain name="wifi-direct" policy="restricted" plist="wifi-direct-plugin-wpasupplicant"/>
+        </provide>
+      </package>
+      <package name="download-provider">
+        <provide>
+          <ac_domain name="download-provider"/>
+        </provide>
+      </package>
+      <package name="com.samsung.watchface-resource">
+        <provide>
+          <ac_domain name="com.samsung.watchface-resource"/>
+        </provide>
+      </package>
+      <package name="e17-misc-volt"/>
+      <package name="media-data">
+        <provide>
+          <ac_domain name="media-data"/>
+        </provide>
+      </package>
+      <package name="bluetooth-agent">
+        <provide>
+          <ac_domain name="bt_agent"/>
+        </provide>
+      </package>
+      <package name="mk-recovery-image"/>
+      <package name="capi-web-url-download"/>
+      <package name="wrt-plugins-tizen"/>
+      <package name="wrt-plugins-sec"/>
+      <package name="wrt-installer">
+        <provide>
+          <ac_domain name="wrt-installer"/>
+        </provide>
+      </package>
+      <package name="com.samsung.gearstore-fit"/>
+      <package name="fota-consumer">
+        <provide>
+          <ac_domain name="fota-consumer"/>
+        </provide>
+      </package>
+      <package name="wifi-direct-plugin-wpasupplicant"/>
+      <package name="dfms-misc-plugin"/>
+      <package name="mdm-server">
+        <provide>
+          <ac_domain name="mdm-server"/>
+        </provide>
+      </package>
+      <package name="wifi-test"/>
+      <package name="swap-manager">
+        <provide>
+          <ac_domain name="swap" policy="shared"/>
+        </provide>
+      </package>
+      <package name="freealut"/>
+      <package name="com.samsung.call">
+        <provide>
+          <ac_domain name="com.samsung.call"/>
+        </provide>
+      </package>
+      <package name="com.samsung.wr-home">
+        <provide>
+          <ac_domain name="com.samsung.w-home"/>
+        </provide>
+      </package>
+      <package name="net.wc-syspopup">
+        <provide>
+          <ac_domain name="net.wc-syspopup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.stopwatch-band"/>
+      <package name="com.samsung.clocksetting">
+        <provide>
+          <ac_domain name="com.samsung.clocksetting"/>
+        </provide>
+      </package>
+      <package name="com.samsung.w-calendar2-band"/>
+      <package name="com.samsung.alarm-mobile-alert"/>
+      <package name="testmode">
+        <provide>
+          <ac_domain name="testmode"/>
+        </provide>
+      </package>
+      <package name="com.samsung.wr-email"/>
+      <package name="com.samsung.wnotification2-fit">
+        <provide>
+          <ac_domain name="com.samsung.wnotification2"/>
+        </provide>
+      </package>
+      <package name="com.samsung.weather-fit"/>
+      <package name="com.samsung.vm-popup">
+        <provide>
+          <ac_domain name="com.samsung.vm-popup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.setting-location">
+        <provide>
+          <ac_domain name="com.samsung.setting-location"/>
+        </provide>
+      </package>
+      <package name="com.samsung.message-fit"/>
+      <package name="com.samsung.fmg-fit"/>
+      <package name="oma-dm-agent">
+        <provide>
+          <ac_domain name="oma-dm-agent"/>
+        </provide>
+      </package>
+      <package name="w-manager-service-fit">
+        <provide>
+          <ac_domain name="w-manager-service"/>
+        </provide>
+      </package>
+      <package name="com.samsung.wifi">
+        <provide>
+          <ac_domain name="com.samsung.wifi"/>
+        </provide>
+      </package>
+      <package name="com.samsung.w-music-player-fit"/>
+      <package name="com.samsung.w-gallery"/>
+      <package name="com.samsung.bt-connection-popup">
+        <provide>
+          <ac_domain name="com.samsung.bt-connection-popup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.bluetooth">
+        <provide>
+          <ac_domain name="com.samsung.bluetooth"/>
+        </provide>
+      </package>
+      <package name="net-config">
+        <provide>
+          <ac_domain name="net-config"/>
+        </provide>
+      </package>
+      <package name="w-proxy">
+        <provide>
+          <ac_domain name="w-proxy"/>
+        </provide>
+      </package>
+      <package name="com.samsung.shealth"/>
+      <package name="com.samsung.remote-sensor-service">
+        <provide>
+          <ac_domain name="com.samsung.remote-sensor-service"/>
+        </provide>
+      </package>
+      <package name="com.samsung.mdm-consumer">
+        <provide>
+          <ac_domain name="com.samsung.mdm-consumer"/>
+        </provide>
+      </package>
+      <package name="com.samsung.fota-consumer">
+        <provide>
+          <ac_domain name="com.samsung.fota-consumer"/>
+        </provide>
+      </package>
+      <package name="com.samsung.fmm-fit"/>
+      <package name="libslp-lbsplugin-consumer"/>
+      <package name="ise-multilingual-fit"/>
+      <package name="e17-extra-config-modules"/>
+      <package name="coord">
+        <provide>
+          <ac_domain name="coord"/>
+        </provide>
+      </package>
+      <package name="com.samsung.windicator">
+        <provide>
+          <ac_domain name="com.samsung.windicator"/>
+        </provide>
+      </package>
+      <package name="com.samsung.watch-list"/>
+      <package name="com.samsung.w-lockscreen-setting">
+        <provide>
+          <ac_domain name="com.samsung.w-lockscreen-setting"/>
+        </provide>
+      </package>
+      <package name="com.samsung.w-input-selector-fit">
+        <provide>
+          <ac_domain name="com.samsung.w-input-selector-fit"/>
+        </provide>
+      </package>
+      <package name="com.samsung.update-service">
+        <provide>
+          <ac_domain name="com.samsung.update-service"/>
+        </provide>
+      </package>
+      <package name="com.samsung.poweroff-syspopup">
+        <provide>
+          <ac_domain name="com.samsung.poweroff-syspopup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.emergency-message">
+        <provide>
+          <ac_domain name="com.samsung.emergency-message"/>
+        </provide>
+      </package>
+      <package name="com.samsung.b2-setup-wizard">
+        <provide>
+          <ac_domain name="com.samsung.b2-setup-wizard"/>
+        </provide>
+      </package>
+      <package name="com.samsung.clock-pixel-heart"/>
+      <package name="data-router">
+        <provide>
+          <ac_domain name="data-router"/>
+        </provide>
+      </package>
+      <package name="location-lbs-server"/>
+      <package name="mtp-responder">
+        <provide>
+          <ac_domain name="mtp-responder"/>
+        </provide>
+      </package>
+      <package name="rory-agent">
+        <provide>
+          <ac_domain name="rory-agent"/>
+        </provide>
+      </package>
+      <package name="com.samsung.idle-clock-volt_sparkle">
+        <provide>
+          <ac_domain name="com.samsung.idle-clock-volt_sparkle"/>
+        </provide>
+      </package>
+      <package name="com.samsung.clock-summary1"/>
+      <package name="xorg-x11-misc-exynos"/>
+      <package name="xorg-x11-drv-evdev"/>
+      <package name="media-thumbnail-server"/>
+      <package name="ise-web-helper-agent"/>
+      <package name="libslp-lbsplugin-replay"/>
+      <package name="dfms-mm"/>
+      <package name="factory-15">
+        <provide>
+          <ac_domain name="factory-15"/>
+        </provide>
+      </package>
+      <package name="uart-mmicheck">
+        <provide>
+          <ac_domain name="uart-mmicheck"/>
+        </provide>
+      </package>
+      <package name="com.samsung.admin-lbs">
+        <provide>
+          <ac_domain name="com.samsung.admin-lbs"/>
+        </provide>
+      </package>
+      <package name="com.samsung.system-syspopup">
+        <provide>
+          <ac_domain name="com.samsung.system-syspopup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.lowmem-syspopup">
+        <provide>
+          <ac_domain name="com.samsung.lowmem-syspopup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.lowbat-syspopup">
+        <provide>
+          <ac_domain name="com.samsung.lowbat-syspopup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.crash-popup">
+        <provide>
+          <ac_domain name="com.samsung.crash-popup"/>
+        </provide>
+      </package>
+      <package name="sync-agent-public-plugins"/>
+      <package name="factory-reset">
+        <provide>
+          <ac_domain name="factory-reset"/>
+        </provide>
+      </package>
+      <package name="ise-engine-fit"/>
+      <package name="com.samsung.w-text-input-setting">
+        <provide>
+          <ac_domain name="com.samsung.w-text-input-setting"/>
+        </provide>
+      </package>
+      <package name="elm-modules"/>
+      <package name="com.samsung.bt-syspopup">
+        <provide>
+          <ac_domain name="com.samsung.bt-syspopup"/>
+        </provide>
+      </package>
+      <package name="stt">
+        <provide>
+          <ac_domain name="stt-server" policy="shared"/>
+        </provide>
+      </package>
+      <package name="smartreply-service">
+        <provide>
+          <ac_domain name="smartreply-service"/>
+        </provide>
+      </package>
+      <package name="download-fonts-service">
+        <provide>
+          <ac_domain name="download-fonts-service"/>
+        </provide>
+      </package>
+      <package name="com.samsung.tsp-trace-test">
+        <provide>
+          <ac_domain name="com.samsung.tsp-trace-test"/>
+        </provide>
+      </package>
+      <package name="org.tizen.data-provider-slave">
+        <provide>
+          <ac_domain name="org.tizen.data-provider-slave" policy="restricted"/>
+        </provide>
+      </package>
+      <package name="e17-extra-modules"/>
+      <package name="com.samsung.safetyvolume-syspopup">
+        <provide>
+          <ac_domain name="com.samsung.safetyvolume-syspopup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.idle-clock-ups-band"/>
+      <package name="com.samsung.idle-clock-emergency-band"/>
+      <package name="com.samsung.idle-clock-digital">
+        <provide>
+          <ac_domain name="com.samsung.idle-clock-digital"/>
+        </provide>
+      </package>
+      <package name="com.samsung.idle-clock-alpm"/>
+      <package name="com.samsung.fus-smart-popup">
+        <provide>
+          <ac_domain name="com.samsung.fus-smart-popup"/>
+        </provide>
+      </package>
+      <package name="com.samsung.bluetooth-testmode">
+        <provide>
+          <ac_domain name="com.samsung.bluetooth-testmode"/>
+        </provide>
+      </package>
+      <package name="com.samsung.app-selector">
+        <provide>
+          <ac_domain name="com.samsung.app-selector"/>
+        </provide>
+      </package>
+      <package name="libmm-sound-tool"/>
+      <package name="gstreamer0.10-plugins-extension-soundalive"/>
+      <package name="edje_multisense_plugin"/>
+      <package name="boot-animation">
+        <provide>
+          <ac_domain name="boot-animation"/>
+        </provide>
+      </package>
+      <package name="gst-plugins-ext0.10"/>
+      <package name="pulseaudio-utils"/>
+      <package name="pulseaudio-module-bluetooth"/>
+      <package name="gst-plugins-good"/>
+      <package name="smart-engine-common"/>
+      <package name="capi-network-bluetooth-test">
+        <provide>
+          <ac_domain name="capi-network-bluetooth-test"/>
+        </provide>
+      </package>
+      <package name="bluetooth-frwk-core">
+        <provide>
+          <ac_domain name="bt-core"/>
+        </provide>
+      </package>
+      <package name="com.samsung.w-clock-viewer">
+        <provide>
+          <ac_domain name="com.samsung.w-clock-viewer"/>
+        </provide>
+      </package>
+      <package name="crash-worker">
+        <provide>
+          <ac_domain name="crash-worker"/>
+        </provide>
+      </package>
+      <package name="scsd">
+        <provide>
+          <ac_domain name="sapscsd"/>
+        </provide>
+      </package>
+      <package name="data-provider-master">
+        <provide>
+          <ac_domain name="data-provider-master" policy="restricted"/>
+        </provide>
+      </package>
+      <package name="squashfs"/>
+      <package name="rpm-security-plugin"/>
+      <package name="messageportd">
+        <provide>
+          <ac_domain name="messageportd"/>
+        </provide>
+      </package>
+      <package name="umc-downloader">
+        <provide>
+          <ac_domain name="umc-downloader"/>
+        </provide>
+      </package>
+      <package name="com.samsung.umc-downloader-popup">
+        <provide>
+          <ac_domain name="com.samsung.umc-downloader-popup"/>
+        </provide>
+      </package>
+      <package name="org.tizen.widget_viewer_sdk">
+        <provide>
+          <ac_domain name="org.tizen.widget_viewer_sdk"/>
+        </provide>
+      </package>
+      <package name="dm-private-plugins"/>
+      <package name="atd-server">
+        <provide>
+          <ac_domain name="atd-server"/>
+        </provide>
+      </package>
+      <package name="samsung-account-wearable">
+        <provide>
+          <ac_domain name="samsung-account-wearable"/>
+        </provide>
+      </package>
+      <package name="smack-security-reports"/>
+      <package name="com.samsung.factorymode">
+        <provide>
+          <ac_domain name="com.samsung.factorymode"/>
+        </provide>
+      </package>
+      <package name="com.samsung.app-version-sync-popup">
+        <provide>
+          <ac_domain name="com.samsung.app-version-sync-popup"/>
+        </provide>
+      </package>
+      <package name="capi-messaging-messages"/>
+      <package name="org.tizen.tizenseckeystring"/>
+      <package name="trm-ext-siop-slsi">
+        <provide>
+          <ac_domain name="siop"/>
+        </provide>
+      </package>
+      <package name="libslp-lbsplugin-brcm"/>
+      <package name="capi-network-smartcard"/>
+      <package name="stest-service">
+        <provide>
+          <ac_domain name="stest-service"/>
+        </provide>
+      </package>
+      <package name="mediacontroller">
+        <provide>
+          <ac_domain name="mediacontroller"/>
+        </provide>
+      </package>
+      <package name="com.samsung.watchface-step-track-volt"/>
+      <package name="pkgmgr-server">
+        <provide>
+          <ac_domain name="pkgmgr-server"/>
+        </provide>
+      </package>
+      <package name="capi-media-vision"/>
+      <package name="capi-media-codec">
+        <provide>
+          <ac_domain name="capi-media-codec"/>
+        </provide>
+      </package>
+      <package name="com.samsung.sdbd-syspopup">
+        <provide>
+          <ac_domain name="com.samsung.sdbd-syspopup"/>
+        </provide>
+      </package>
+      <package name="launchpad-loader">
+        <provide>
+          <ac_domain name="launchpad-loader"/>
+        </provide>
+      </package>
+      <package name="libshortcut">
+        <provide>
+          <ac_domain name="shortcut-service" policy="restricted"/>
+        </provide>
+      </package>
+      <package name="elementary-extension"/>
+      <package name="ws-private-tools">
+        <provide>
+          <ac_domain name="ws-private-tools"/>
+        </provide>
+      </package>
+      <package name="ui-tools">
+        <provide>
+          <ac_domain name="ui-tools"/>
+        </provide>
+      </package>
+      <package name="elementary-tools"/>
+      <package name="liboauth"/>
+      <package name="iproute2"/>
+      <package name="bluetooth-testmode-le">
+        <provide>
+          <ac_domain name="bluetooth-testmode-le"/>
+        </provide>
+      </package>
+      <package name="dfms-sensor">
+        <provide>
+          <ac_domain name="dfms-sensor"/>
+        </provide>
+      </package>
+      <package name="brcm-gps-daemon">
+        <provide>
+          <ac_domain name="brcm_daemon"/>
+        </provide>
+      </package>
+      <package name="capi-media-radio"/>
+      <package name="mtp-air">
+        <provide>
+          <ac_domain name="mtp-air"/>
+        </provide>
+      </package>
+      <package name="libmm-imgp-gstcs"/>
+      <package name="gstreamer0.10-plugins-extension"/>
+      <package name="gst-plugins-ugly"/>
+      <package name="gst-plugins-savscodec-neon"/>
+      <package name="gst-plugins-base-tools">
+        <provide>
+          <ac_domain name="gst-plugins-base-tools"/>
+        </provide>
+      </package>
+      <package name="gst-plugins-bad"/>
+      <package name="gst-ffmpeg"/>
+      <package name="system-utils">
+        <provide>
+          <ac_domain name="system-utils"/>
+        </provide>
+      </package>
+      <package name="xorg-x11-module-extra"/>
+      <package name="com.samsung.mdm-toolkit-cmd">
+        <provide>
+          <ac_domain name="mdm-toolkit-cmd"/>
+        </provide>
+      </package>
+      <package name="rw-updater">
+        <provide>
+          <ac_domain name="fota"/>
+        </provide>
+      </package>
+      <package name="charging-animation">
+        <provide>
+          <ac_domain name="charging-animation"/>
+        </provide>
+      </package>
+      <package name="xorg-x11-drv-exynos"/>
+      <package name="gstreamer0.10-plugins-extension-secrecord"/>
+      <package name="seckeyprov-ex3250">
+        <provide>
+          <ac_domain name="cstorage"/>
+        </provide>
+      </package>
+      <package name="ecore-buffer">
+        <provide>
+          <ac_domain name="ecore-buffer"/>
+        </provide>
+      </package>
+      <package name="trm">
+        <provide>
+          <ac_domain name="trm"/>
+        </provide>
+      </package>
+      <package name="audio-hal-e3250">
+        <provide>
+          <ac_domain name="audio-hal"/>
+        </provide>
+      </package>
+      <package name="glib-networking"/>
+      <package name="wlandrv-plugin-bcm43436l">
+        <provide>
+          <ac_domain name="wifi-loader"/>
+        </provide>
+      </package>
+      <package name="janskyd">
+        <provide>
+          <ac_domain name="jansky"/>
+        </provide>
+      </package>
+      <package name="dfms">
+        <provide>
+          <ac_domain name="dfms-kernel"/>
+        </provide>
+      </package>
+      <package name="clatd">
+        <provide>
+          <ac_domain name="clatd"/>
+        </provide>
+      </package>
+      <package name="security-extension-server"/>
+      <package name="native-buffer-pool"/>
+      <package name="libttssmt">
+        <provide>
+          <ac_domain name="tts-engine-samsung"/>
+        </provide>
+      </package>
+      <package name="tima">
+        <provide>
+          <ac_domain name="tima"/>
+        </provide>
+      </package>
+      <package name="wireless-download"/>
+      <package name="xorg-x11-xinit"/>
+      <package name="reactivationlock">
+        <provide>
+          <ac_domain name="reactivationlock" policy="shared"/>
+        </provide>
+      </package>
+      <package name="elfutils-libs"/>
+      <package name="xorg-x11-xinput">
+        <provide>
+          <ac_domain name="xinput"/>
+        </provide>
+      </package>
+      <package name="system-arbiter">
+        <provide>
+          <ac_domain name="system-arbiter"/>
+        </provide>
+      </package>
+      <package name="dnsmasq"/>
+      <package name="tota-ua"/>
+      <package name="libtbm-exynos4412"/>
+      <package name="xorg-x11-apps"/>
+      <package name="xorg-x11-utils"/>
+      <package name="kmod"/>
+      <package name="libtdm-exynos"/>
+      <package name="alsa-utils"/>
+      <package name="tee-mobicore-provlib"/>
+      <package name="device-manager-plugin-e3250"/>
+      <package name="sensor-hal"/>
+      <package name="libmm-imgp-savs"/>
+      <package name="libcamsrcjpegenc-sw-libjpeg"/>
+      <package name="dm-public-plugins"/>
+      <package name="capi-media-sef"/>
+      <package name="uuidd"/>
+      <package name="ramdisk-recovery"/>
+      <package name="nodejs"/>
+      <package name="wrt-common-native"/>
+      <package name="bluetooth-firmware-bcm-exynos3250-volt">
+        <provide>
+          <ac_domain name="bt_firmware"/>
+        </provide>
+      </package>
+      <package name="bincfg-user"/>
+      <package name="libtpm-exynos"/>
+      <package name="libtpm"/>
+      <package name="xorg-x11-drv-gesture"/>
+      <package name="tinybox"/>
+      <package name="strace"/>
+      <package name="shadow-utils"/>
+      <package name="rfkill">
+        <provide>
+          <ac_domain name="rfkill"/>
+        </provide>
+      </package>
+      <package name="fsync"/>
+      <package name="csr-framework"/>
+      <package name="bluez-hcidump">
+        <provide>
+          <ac_domain name="bluez-hcidump"/>
+        </provide>
+      </package>
+      <package name="agetty"/>
+    </sw_source>
+  </sw_source>
+</config>
